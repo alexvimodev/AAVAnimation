@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1A184616BC362400441036 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A184516BC362300441036 /* UIKit.framework */; };
+		2E1A184816BC362400441036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A184716BC362400441036 /* Foundation.framework */; };
+		2E1A184A16BC362400441036 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1A184916BC362400441036 /* CoreGraphics.framework */; };
+		2E1A185016BC362400441036 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E1A184E16BC362400441036 /* InfoPlist.strings */; };
+		2E1A185216BC362400441036 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A185116BC362400441036 /* main.m */; };
+		2E1A185616BC362400441036 /* AAVAnimationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A185516BC362400441036 /* AAVAnimationAppDelegate.m */; };
+		2E1A185F16BC365700441036 /* CustomizedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A185E16BC365700441036 /* CustomizedView.m */; };
+		2E1A186316BC367900441036 /* AVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1A186116BC367900441036 /* AVViewController.m */; };
+		2E1A186416BC367900441036 /* AVViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1A186216BC367900441036 /* AVViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E1A184116BC362300441036 /* AAVAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AAVAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1A184516BC362300441036 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E1A184716BC362400441036 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E1A184916BC362400441036 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E1A184D16BC362400441036 /* AAVAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AAVAnimation-Info.plist"; sourceTree = "<group>"; };
+		2E1A184F16BC362400441036 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E1A185116BC362400441036 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E1A185316BC362400441036 /* AAVAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AAVAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		2E1A185416BC362400441036 /* AAVAnimationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AAVAnimationAppDelegate.h; sourceTree = "<group>"; };
+		2E1A185516BC362400441036 /* AAVAnimationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAVAnimationAppDelegate.m; sourceTree = "<group>"; };
+		2E1A185D16BC365700441036 /* CustomizedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomizedView.h; sourceTree = "<group>"; };
+		2E1A185E16BC365700441036 /* CustomizedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedView.m; sourceTree = "<group>"; };
+		2E1A186016BC367900441036 /* AVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVViewController.h; sourceTree = "<group>"; };
+		2E1A186116BC367900441036 /* AVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVViewController.m; sourceTree = "<group>"; };
+		2E1A186216BC367900441036 /* AVViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1A183E16BC362300441036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1A184616BC362400441036 /* UIKit.framework in Frameworks */,
+				2E1A184816BC362400441036 /* Foundation.framework in Frameworks */,
+				2E1A184A16BC362400441036 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E1A183616BC362300441036 = {
+			isa = PBXGroup;
+			children = (
+				2E1A184B16BC362400441036 /* AAVAnimation */,
+				2E1A184416BC362300441036 /* Frameworks */,
+				2E1A184216BC362300441036 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E1A184216BC362300441036 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A184116BC362300441036 /* AAVAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E1A184416BC362300441036 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A184516BC362300441036 /* UIKit.framework */,
+				2E1A184716BC362400441036 /* Foundation.framework */,
+				2E1A184916BC362400441036 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E1A184B16BC362400441036 /* AAVAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A185C16BC364300441036 /* view */,
+				2E1A185416BC362400441036 /* AAVAnimationAppDelegate.h */,
+				2E1A185516BC362400441036 /* AAVAnimationAppDelegate.m */,
+				2E1A184C16BC362400441036 /* Supporting Files */,
+			);
+			path = AAVAnimation;
+			sourceTree = "<group>";
+		};
+		2E1A184C16BC362400441036 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A184D16BC362400441036 /* AAVAnimation-Info.plist */,
+				2E1A184E16BC362400441036 /* InfoPlist.strings */,
+				2E1A185116BC362400441036 /* main.m */,
+				2E1A185316BC362400441036 /* AAVAnimation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E1A185C16BC364300441036 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2E1A185D16BC365700441036 /* CustomizedView.h */,
+				2E1A185E16BC365700441036 /* CustomizedView.m */,
+				2E1A186016BC367900441036 /* AVViewController.h */,
+				2E1A186116BC367900441036 /* AVViewController.m */,
+				2E1A186216BC367900441036 /* AVViewController.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E1A184016BC362300441036 /* AAVAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E1A185916BC362400441036 /* Build configuration list for PBXNativeTarget "AAVAnimation" */;
+			buildPhases = (
+				2E1A183D16BC362300441036 /* Sources */,
+				2E1A183E16BC362300441036 /* Frameworks */,
+				2E1A183F16BC362300441036 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AAVAnimation;
+			productName = AAVAnimation;
+			productReference = 2E1A184116BC362300441036 /* AAVAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E1A183816BC362300441036 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Personal;
+			};
+			buildConfigurationList = 2E1A183B16BC362300441036 /* Build configuration list for PBXProject "AAVAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E1A183616BC362300441036;
+			productRefGroup = 2E1A184216BC362300441036 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E1A184016BC362300441036 /* AAVAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E1A183F16BC362300441036 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1A185016BC362400441036 /* InfoPlist.strings in Resources */,
+				2E1A186416BC367900441036 /* AVViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E1A183D16BC362300441036 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1A185216BC362400441036 /* main.m in Sources */,
+				2E1A185616BC362400441036 /* AAVAnimationAppDelegate.m in Sources */,
+				2E1A185F16BC365700441036 /* CustomizedView.m in Sources */,
+				2E1A186316BC367900441036 /* AVViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E1A184E16BC362400441036 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E1A184F16BC362400441036 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E1A185716BC362400441036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E1A185816BC362400441036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E1A185A16BC362400441036 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AAVAnimation/AAVAnimation-Prefix.pch";
+				INFOPLIST_FILE = "AAVAnimation/AAVAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E1A185B16BC362400441036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AAVAnimation/AAVAnimation-Prefix.pch";
+				INFOPLIST_FILE = "AAVAnimation/AAVAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E1A183B16BC362300441036 /* Build configuration list for PBXProject "AAVAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1A185716BC362400441036 /* Debug */,
+				2E1A185816BC362400441036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E1A185916BC362400441036 /* Build configuration list for PBXNativeTarget "AAVAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E1A185A16BC362400441036 /* Debug */,
+				2E1A185B16BC362400441036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E1A183816BC362300441036 /* Project object */;
+}
